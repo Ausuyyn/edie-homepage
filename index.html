@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edie Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav__container">
+                <h1>
+                    <a class="nav__title" href="#">Edie</a>
+                </h1>
+                <input type="checkbox" id="check">
+                <label for="check" class="nav__check">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                </label>
+                <ul class="nav__links">
+                    <li><a class="nav__link--active" href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our works</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="hero__container">
+                <section class="hero__section">
+                    <h4 class="hero__subtitle">Unhappy with your website?</h4>
+                    <h2 class="hero__title">We create beautiful and fast web services</h2>
+                </section>
+                <img class="hero__img" src="img/heroImage.jpg" alt="">
+                <section class="hero__section">
+                    <h2 class="hero__title">Story, emotion and purpose</h2>
+                    <p class="hero__paragraph">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+                    <form class="hero__form">
+                        <label for="email" class="form__label">Want us to contact you?</label>
+                        <section class="form__section">
+                            <input class="form__input" placeholder="Email" type="text" id="email">
+                            <button class="form__button">Join</button>
+                        </section>
+                    </form>
+                </section>
+            </div>
+        </header>
+        <main>
+            <div class="services__container">
+                <h2 class="services__title">We offer high demand services</h2>
+                <div class="services__card">
+                    <div class="s-card__content">
+                        <div class="s-card__icon s-card__icon--blue">
+                            <i class="fa-solid fa-pencil fa-2x"></i>
+                        </div>
+                        <h3 class="s-card__title">UI/UX Design</h3>
+                        <p class="s-card__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                        <button class="s-card__button">Get started</button>
+                    </div>
+                    <div class="s-card__content s-card__content--active">
+                        <div class="s-card__icon s-card__icon--green">
+                            <i class="fa-solid fa-code fa-2x"></i>
+                        </div>
+                        <h3 class="s-card__title">Front End</h3>
+                        <p class="s-card__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                        <button class="s-card__button s-card__button--active">Get started</button>
+                    </div>
+                    <div class="s-card__content">
+                        <div class="s-card__icon s-card__icon--red">
+                            <i class="fa-solid fa-server fa-2x"></i>
+                        </div>
+                        <h3 class="s-card__title">Back End</h3>
+                        <p class="s-card__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                        <button class="s-card__button">Get started</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proyects__container">
+                <h2 class="proyects__title">Good design means good business</h2>
+                <div class="proyects__card">
+                    <div class="p-card__content">
+                        <img class="p-card__img" src="img/smarthome.jpg" alt="Smart house">
+                        <h5 class="p-card__subtitle">Full stack application</h5>
+                        <h3 class="p-card__title">Smart home dashboard</h3>
+                    </div>
+                    <div class="p-card__content">
+                        <img class="p-card__img" src="img/onboard.png" alt="Smart house">
+                        <h5 class="p-card__subtitle">UX/UI design</h5>
+                        <h3 class="p-card__title">Onboard application</h3>
+                    </div>
+                    <div class="p-card__content">
+                        <img class="p-card__img" src="img/booking.png" alt="Smart house">
+                        <h5 class="p-card__subtitle">Mobile application</h5>
+                        <h3 class="p-card__title">Booking system</h3>
+                    </div>
+                    <div class="p-card__content">
+                        <img class="p-card__img" src="img/juice-product.png" alt="Smart house">
+                        <h5 class="p-card__subtitle">Front End application</h5>
+                        <h3 class="p-card__title">Juice product homepage</h3>
+                    </div>
+                </div>
+                <div class="proyects__link">
+                    <a href="#">see more ➪</a>
+                </div>
+            </div>
+
+            <div class="team__container">
+                <div class="team__text">
+                    <h5 class="team__subtitle">Meet the team</h5>
+                    <h2 class="team__title">We are chilled and a laidback team</h2>
+                    <p class="team__paragraph ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+                <div class="team__photos">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="testimonial__container">
+                <h4 class="testimonial__text">“Fast and outstanding results. Edie understands their customer's needs. They have a young and talented team.”    </h4>
+                <div class="testimonial__profile">
+                    <img class="profile__photo" src="img/person4.png" alt="Photo">
+                    <div>
+                        <h3 class="profile__name">Carlos Tran</h3>
+                        <p class="profile__profession">The Decorate Gatsby</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="footer__container">
+        <ul class="footer__nav">
+            <li><a class="nav__link--active" href="#">Home</a></li>
+            <li><a href="#">Services</a></li> 
+            <li><a href="#">Our works</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="footer__social">
+            <a class="nav__title" style="color: white;" href="#">Edie</a>
+            <div>
+                <img src="img/instagram.svg" alt="">
+                <img src="img/linkedin.svg" alt="">
+                <img src="img/twitter.svg" alt="">
+            </div>
+        </div>
+        <div>
+            <label for="email2" class="form__label">Want us to contact you?</label>
+            <section class="form__section">
+                <input class="form__input" placeholder="Email" type="text" id="email2">
+                <button class="form__button">Join</button>
+            </section>
+        </div>
+    </footer>
+    <h3 class="createdBy">created by <a href="https://github.com/Ausuyyn">Şêrwan</a> devchallenge.io</h3>
+</body>
+<script src="https://kit.fontawesome.com/766d10f6e3.js" crossorigin="anonymous"></script>
+</html>
+
+<!-- 
+🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥
+🟥🟥⭐🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥
+🟥🟥🛠️🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥
+🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥
+🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥
+🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥
+🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥 
+-->
